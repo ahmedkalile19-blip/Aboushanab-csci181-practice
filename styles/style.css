@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: #4f5565;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  color: #3d424c;
+  font-family: Poppins, "Work Sans", Arial, Helvetica, sans-serif;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 2.36875rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.77688rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.33313rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  color: #003ac0;
+  font-weight: 500;
+}
+a:hover {
+  color: rebeccapurple;
+}
+
+button > a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  background-color: #edf0f5;
+  color: #003ac0;
+  border-radius: 0.75rem;
+  border: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #a0a9c2;
+}
+
+#main-nav ul {
+  color: #003ac0;
+  padding: 1rem 1.5rem;
+  list-style-type: none;
+}
+
+.display-text {
+  font-family: "Bebas Neue", "Work Sans", Arial, Helvetica, sans-serif;
+  font-size: 3.1575rem;
+  font-weight: 400;
+  line-height: 3.5rem;
+}
+
+section.page-section {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #d4d9e2;
+  margin: 0 auto 1rem auto;
+  width: 100%;
+  max-width: 1920px;
+}
+
+#page-header {
+  background-color: bisque;
+  padding: 1rem 1.5rem;
+}
+#page-header .logo {
+  color: #3d424c;
+  font-family: Poppins, "Work Sans", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1.3333rem;
+}
+
+#hero {
+  background-image: url(../images/webimg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 16 / 4;
+  margin-bottom: 2rem;
+  padding: 15rem 2rem;
+  text-align: center;
+}
