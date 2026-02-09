@@ -141,3 +141,15 @@ section.page-section {
   padding: 15rem 2rem;
   text-align: center;
 }
+
+form > button {
+  background-color: white;
+}
+
+table {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #d4d9e2;
+  margin: 0 auto 1rem auto;
+  width: 100%;
+}
