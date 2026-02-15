@@ -18,10 +18,20 @@ html {
 
 body {
   min-height: 100vh;
-  color: #4f5565;
   font-size: 1rem;
   line-height: 1.5rem;
-  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -43,7 +53,18 @@ h1,
 h2,
 h3 {
   color: #3d424c;
-  font-family: Poppins, "Work Sans", Arial, Helvetica, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   text-wrap: balance;
 }
 
@@ -104,7 +125,19 @@ button:hover {
 }
 
 .display-text {
-  font-family: "Bebas Neue", "Work Sans", Arial, Helvetica, sans-serif;
+  color: white;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   font-size: 3.1575rem;
   font-weight: 400;
   line-height: 3.5rem;
@@ -113,7 +146,7 @@ button:hover {
 section.page-section {
   padding: 1.5rem;
   border-radius: 1rem;
-  border: 1px solid #d4d9e2;
+  border: 1px solid black;
   margin: 0 auto 1rem auto;
   width: 100%;
   max-width: 1920px;
@@ -122,10 +155,23 @@ section.page-section {
 #page-header {
   background-color: bisque;
   padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
 }
 #page-header .logo {
   color: #3d424c;
-  font-family: Poppins, "Work Sans", Arial, Helvetica, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   text-decoration: none;
   font-size: 1.3333rem;
 }
@@ -149,7 +195,29 @@ form > button {
 table {
   padding: 1.5rem;
   border-radius: 1rem;
-  border: 1px solid #d4d9e2;
+  border: 1px solid black;
   margin: 0 auto 1rem auto;
   width: 100%;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.project-card:hover {
+  background: #fdfdfd; /* subtle background change */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+  cursor: pointer;
 }
