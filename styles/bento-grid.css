@@ -5,7 +5,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.fruits {
+.bento-grid {
   padding: 2em;
   display: grid;
   grid-template-columns: repeat(3, 150px);
