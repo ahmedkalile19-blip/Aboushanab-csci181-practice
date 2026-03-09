@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Home - Ahmed Aboushanab Portfolio</title>
   </head>
 
@@ -25,12 +26,15 @@
         </ul>
       </nav>
     </header>
+
     <main>
       <section id="hero">
         <p class="display-text">Web Development / Coding / Design</p>
         <button><a href="resume.html">View My Work</a></button>
       </section>
+
       <h1>Contact</h1>
+
       <section id="contact">
         <form>
           <label for="user-name">
@@ -52,6 +56,7 @@
           <button type="submit">Submit</button>
         </form>
       </section>
+
       <section id="projects" class="projects">
         <h2>Projects</h2>
         <ul class="project-list">
@@ -95,6 +100,83 @@
                 >
               </button>
             </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bg-gray-100 py-12">
+        <ul
+          class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6"
+        >
+          <li class="bg-white p-6 rounded-xl shadow-md">
+            <figure>
+              <blockquote>
+                <p class="text-gray-600 mb-6">
+                  This program helped me learn the fundamentals of coding and
+                  build real projects.
+                </p>
+              </blockquote>
+
+              <figcaption class="flex items-center gap-4">
+                <img
+                  src="./images/revlogo.jpg"
+                  alt=""
+                  class="w-12 h-12 rounded-full object-cover"
+                />
+                <div>
+                  <p class="font-semibold text-gray-900">Andrew Barr</p>
+                  <p class="text-sm text-gray-500">
+                    Freshman, Computer Science
+                  </p>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="bg-white p-6 rounded-xl shadow-md">
+            <figure>
+              <blockquote>
+                <p class="text-gray-600 mb-6">
+                  The instructors and community made learning software
+                  engineering enjoyable.
+                </p>
+              </blockquote>
+
+              <figcaption class="flex items-center gap-4">
+                <img
+                  src="./images/revlogo2.jpg"
+                  alt=""
+                  class="w-12 h-12 rounded-full object-cover"
+                />
+                <div>
+                  <p class="font-semibold text-gray-900">Susan Philips</p>
+                  <p class="text-sm text-gray-500">
+                    Junior, Software Engineering
+                  </p>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="bg-white p-6 rounded-xl shadow-md">
+            <figure>
+              <blockquote>
+                <p class="text-gray-600 mb-6">
+                  I gained practical data analysis skills that I now use in
+                  internships.
+                </p>
+              </blockquote>
+
+              <figcaption class="flex items-center gap-4">
+                <img
+                  src="./images/revlogo3.jpg"
+                  alt=""
+                  class="w-12 h-12 rounded-full object-cover"
+                />
+                <div>
+                  <p class="font-semibold text-gray-900">Marcus Johnson</p>
+                  <p class="text-sm text-gray-500">Senior, Data Analyst</p>
+                </div>
+              </figcaption>
+            </figure>
           </li>
         </ul>
       </section>

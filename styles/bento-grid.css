@@ -6,7 +6,7 @@ body {
 }
 
 .bento-grid {
-  padding: 2em;
+  padding: 1em;
   display: grid;
   grid-template-columns: repeat(3, 150px);
   grid-template-rows: repeat(3, 150px);
