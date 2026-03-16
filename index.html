@@ -9,8 +9,10 @@
   </head>
 
   <body>
-    <header id="page-header">
-      <a href="/" class="logo">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header id="page-header" class="flex justify-between items-center">
+      <a href="/" class="logo flex items-center gap-2">
         <img
           src="./images/FullLogo.jpg"
           alt="web-logo"
@@ -19,23 +21,22 @@
         />
         <span>Ahmed Aboushanab</span>
       </a>
-      <nav id="main-nav">
-        <ul>
-          <li><a href="./">Home</a></li>
+      <nav id="main-nav" aria-label="Primary navigation">
+        <ul class="flex gap-6">
+          <li><a href="./" aria-current="page">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main id="main-content">
       <section id="hero">
         <p class="display-text">Web Development / Coding / Design</p>
         <button><a href="resume.html">View My Work</a></button>
       </section>
 
-      <h1>Contact</h1>
-
       <section id="contact">
+        <h1>Contact</h1>
         <form>
           <label for="user-name">
             Name:
